@@ -1,13 +1,13 @@
 package za.co.psy;
 
-import za.co.psy.ProblemA003;
+import za.co.psy.ProblemTest;
 
-public class App {
-
+public class App{
     public static void main(String[] args) {
+        ProblemTest pt = new ProblemTest();
 
-        ProblemA003 p1 = new ProblemA003();
-        p1.MakeACross(9);
+        pt.makeLetterX(9);
     }
+
 
 }
